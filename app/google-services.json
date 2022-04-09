@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "56037834440",
+    "project_id": "cardock-6a917",
+    "storage_bucket": "cardock-6a917.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56037834440:android:78622d319c965251542ffd",
+        "android_client_info": {
+          "package_name": "com.example.cardock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56037834440-gindv8s65s0p5gj91h8deah39c7i7tai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cardock",
+            "certificate_hash": "8e844bee60c7f0bf57accce241fd2417d9cc79cd"
+          }
+        },
+        {
+          "client_id": "56037834440-20iabf2o53fkshjshnr730vhq58osb67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlGsgFRXxBhcdzb_dFO52o2HnQlalcIPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56037834440-20iabf2o53fkshjshnr730vhq58osb67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
