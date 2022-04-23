@@ -3,6 +3,7 @@ package com.example.cardock;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -67,6 +68,7 @@ public class CarRegister extends AppCompatActivity {
                                 databaseReference.child("cars").child(regNum).child("seat").setValue(seat);
                                 //show success message on complete the activity
                                 Toast.makeText(CarRegister.this, "Car registered successfully...", Toast.LENGTH_SHORT).show();
+                                startActivity(new Intent(CarRegister.this,TableView.class));
                                 finish();
                             }
                         }

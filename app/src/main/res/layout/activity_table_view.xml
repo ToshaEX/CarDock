@@ -5,13 +5,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TableView">
+    tools:context=".TableView"
+    android:orientation="vertical"
+    android:layout_gravity="center">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#A9A9A9"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CarDock Market "
+            android:textSize="28sp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sellBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sell your vehicle"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_marginRight="10dp"
+
+            />
+
+    </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#65E4A6"
-         />
+        android:layout_marginTop="100dp"
+        android:background="#D3D3D3"
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
