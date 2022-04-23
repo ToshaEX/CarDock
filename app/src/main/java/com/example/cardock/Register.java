@@ -66,7 +66,7 @@ public class Register extends AppCompatActivity {
                                 databaseReference.child("users").child(phoneTxt).child("fullname").setValue(fullnameTxt);
                                 databaseReference.child("users").child(phoneTxt).child("email").setValue(emailTxt);
                                 databaseReference.child("users").child(phoneTxt).child("password").setValue(passwordTxt);
-                                //show a success msg and finis the activity
+                                //show a success msg and finish the activity
                                 Toast.makeText(Register.this, "User registered successfully",Toast.LENGTH_SHORT).show();
                                 finish();
                             }

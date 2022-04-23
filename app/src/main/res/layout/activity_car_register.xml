@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CarRegister">
+
+
+    <TextView
+        android:id="@+id/textView_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Register your Car"
+        android:textSize="10pt"
+        android:layout_margin="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp" />
+
+    <EditText
+        android:id="@+id/editText_vReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Vehicle Registration Number"
+        android:inputType="textPersonName"
+        android:layout_margin="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp" />
+
+    <EditText
+        android:id="@+id/editText_vbrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:hint="Vehicle brand"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+         />
+
+    <EditText
+        android:id="@+id/editText_vModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Vehicle model"
+        android:inputType="textPersonName"
+        android:layout_margin="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp" />
+
+
+    <EditText
+        android:id="@+id/editText_vSeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Seat"
+        android:maxLines="1"
+        android:inputType="numberDecimal"
+        android:layout_margin="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp" />
+
+    <EditText
+        android:id="@+id/editText_vPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="numberDecimal"
+        android:layout_margin="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp" />
+
+    <EditText
+        android:id="@+id/editText_vYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Manufacture year"
+        android:inputType="date"
+        android:layout_margin="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_rVehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Vehicle"
+        android:layout_margin="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+
+        />
+</LinearLayout>
