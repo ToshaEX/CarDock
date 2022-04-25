@@ -81,8 +81,6 @@ public class CarRegister extends AppCompatActivity {
                 }
             }
         });
-
-
    }
 
 }
